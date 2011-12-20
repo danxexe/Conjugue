@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "conjugue.gemspec",
     "data/verbos",
     "lib/.DS_Store",
     "lib/conjugue.rb",
