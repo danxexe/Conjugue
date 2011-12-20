@@ -11,27 +11,29 @@ Usage:
 
 	Conjugue.verbo nome, tempo, pessoa, plural
 
+#### Where:
+
 `nome`: infinitive form
 
 `tempo`:
 
-  :p => presente do indicativo
-  :pi => imperfeito do indicativo,
-  :pp => perfeito do indicativo,
-  :pm => mais-que-perfeito do indicativo,
-  :f => futuro do pretérito do indicativo
-  :fp => futuro do presente do indicativo
-  :ps => presente do subjuntivo
-  :pis => imperfeito do subjuntivo
-  :i => imperativo afirmativo
-  :in => 'imperativo negativo
+	:p => presente do indicativo
+	:pi => imperfeito do indicativo
+	:pp => perfeito do indicativo
+	:pm => mais-que-perfeito do indicativo
+	:f => futuro do pretérito do indicativo
+	:fp => futuro do presente do indicativo
+	:ps => presente do subjuntivo
+	:pis => imperfeito do subjuntivo
+	:i => imperativo afirmativo
+	:in => 'imperativo negativo
 
-`pessoa`: integer representing the person number
+`pessoa`: person number
 
 `plural`: default: `false`
 
 
-Ex:
+#### Ex:
 
 	require 'conjugue'
 
