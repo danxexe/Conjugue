@@ -124,10 +124,10 @@ module Conjugue
     PRONOUNS = [
       'Eu',
       'Tu',
-      'Ele',
-      'Nos',
-      'Vos',
-      'Eles'
+      'Ele/Ela',
+      'Nós',
+      'Vós',
+      'Eles/Elas'
     ]
     
     self.init
